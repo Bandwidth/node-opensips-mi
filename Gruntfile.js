@@ -37,13 +37,6 @@ module.exports = function (grunt) {
 			coverage : {
 				src     : "test",
 				options : {
-					check : {
-						statements : 100,
-						branches   : 100,
-						lines      : 100,
-						functions  : 100
-					},
-
 					recursive : true
 				}
 			}
