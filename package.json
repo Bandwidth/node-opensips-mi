@@ -4,6 +4,9 @@
   "description": "A Node client library for the OpenSIPS management interface.",
   "author": "Tyler Cross <tcross@bandwidth.com>",
   "license": "MIT",
+  "keywords": [
+    "opensips", "mi"
+  ],
   "engines": {
     "node": "0.10.x",
     "npm": "2.3.x"
