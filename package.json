@@ -1,0 +1,41 @@
+{
+  "name": "opensips-mi",
+  "version": "0.1.0",
+  "description": "A Node client library for the OpenSIPS `mi_datagram` management interface.",
+  "author": "Tyler Cross <tcross@bandwidth.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "2.3.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:inetCatapult/node-opensips-mi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inetCatapult/node-opensips-mi/issues"
+  },
+  "homepage": "https://github.com/inetCatapult/node-opensips-mi",
+  "main": "lib/Client",
+  "bin": {
+    "nomi" : "bin/nomi"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-jscs": "^1.5.0",
+    "grunt-mocha-istanbul": "^2.3.1",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.13",
+    "commander": "^2.8.1",
+    "lodash": "^3.3.1"
+  }
+}
