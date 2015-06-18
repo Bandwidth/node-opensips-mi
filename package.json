@@ -1,6 +1,6 @@
 {
   "name": "opensips-mi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Node client library for the OpenSIPS management interface.",
   "author": "Tyler Cross <tcross@bandwidth.com>",
   "license": "MIT",
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/inetCatapult/node-opensips-mi",
   "main": "lib/Client",
   "bin": {
-    "nomi" : "bin/nomi"
+    "nomi": "bin/nomi"
   },
   "scripts": {
     "test": "grunt"
