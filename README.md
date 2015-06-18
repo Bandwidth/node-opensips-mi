@@ -1,4 +1,4 @@
-node-opensips-mi
+node-opensips-mi [![Build Status](https://travis-ci.org/inetCatapult/node-opensips-mi.svg?branch=master)](https://travis-ci.org/inetCatapult/node-opensips-mi)
 ================
 
 > A Node client library for the OpenSIPS management interface.
