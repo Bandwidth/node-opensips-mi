@@ -27,12 +27,13 @@ Retrieves the contact information for the specified address of record.
 example resolution value:
 ```javascript
 [ { contact: 'sip:dude@177.135.168.30:44444;line=c12f27fadc3333f',
-    q: '0.5',
-    expires: '3291',
-    flags: '0x0',
-    cflags: '0x0',
-    socket: 'udp:44.4.44.14:3938',
-    methods: '0xFFFFFFFF',
-    received: 'sip:177.135.168.30:44444',
-    user_agent: 'Linphone/3.6.1 (eXosip2/4.0.0)' } ]
+    properties:
+     { q: '0.5',
+       expires: '3384',
+       flags: '0x0',
+       cflags: '0x0',
+       socket: 'udp:44.4.44.14:3938',
+       methods: '0xFFFFFFFF',
+       received: 'sip:177.135.168.30:44444',
+       user_agent: 'Linphone/3.6.1 (eXosip2/4.0.0)' } } ]
 ```
