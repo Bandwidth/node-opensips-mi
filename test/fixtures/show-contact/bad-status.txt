@@ -1,0 +1,2 @@
+badstatus
+Contact:: <sip:tester@177.135.168.30:37225;line=004d205e4461132>;q=0.5;expires=3252;flags=0x0;cflags=0x0;socket=<udp:52.4.77.11:5060>;methods=0xFFFFFFFF;received=<sip:177.135.168.30:37225>;user_agent=<Linphone/3.6.1 (eXosip2/4.0.0)>

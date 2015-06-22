@@ -1,7 +1,7 @@
 "use strict";
 var expect = require("chai").expect;
 
-var UserLocation = require("../../../lib/modules/UserLocation");
+var UserLocation = require("../../lib/modules/UserLocation");
 
 describe("The UserLocation module class", function () {
 	it("cannot be modified at runtime", function () {
