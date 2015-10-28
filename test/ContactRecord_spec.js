@@ -40,3 +40,4 @@ describe("A ContactRecord", function () {
 		});
 	});
 });
+
