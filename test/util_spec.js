@@ -1,10 +1,7 @@
 "use strict";
 var expect        = require("chai").expect;
-var fixtures      = require("./helpers/fixtures");
 var Sinon         = require("sinon");
-var _             = require("lodash");
 
-var Response      = require("../lib/Response");
 var ContactRecord = require("../lib/ContactRecord");
 var util          = require("../lib/util");
 
