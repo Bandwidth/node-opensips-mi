@@ -1,6 +1,6 @@
 {
   "name": "opensips-mi",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "A Node client library for the OpenSIPS management interface.",
   "author": "Tyler Cross <tcross@bandwidth.com>",
   "license": "MIT",
